@@ -1,8 +1,8 @@
 # funcao-score
 
-;centena
+	;centena
 	loadn r1, #582  		; Posição para imprimir os pontos
-	load r0, Point 	        ; r0 = Point
+	load r0, Point 	                ; r0 = Point
 	loadn r2, #100 			; r2 = 100
 	div r3, r0, r2 			; r3 = r0 / r2    ->   pega o dígito da centena
 	loadn r4, #48 			; r4 = 48
